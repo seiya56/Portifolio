@@ -92,6 +92,31 @@ section{
     width: 25%;
     margin-left: 3rem;
 }
+/*SOBRE*/
+.sobre{
+    color: white;
+    margin-top: 1.8%;
+    height: 40rem;
+    width: 95%;
+    background-color: rgb(217,217,217,0.12);
+    border-radius:0.5rem;
+    display: grid;
+    grid-template-rows: repeat(2,319px);
+    
+}
+.sobre h1{
+    font-size: 3.2rem;
+    margin-left: 2%;
+}
+.inf{
+    align-self: center;
+    font-size: 20px;
+    margin: 5px;
+}
+.inf div{
+    margin-top: 4rem;
+}
+
 
 /*PROJETOS*/
 
@@ -332,6 +357,20 @@ section{
     }
     .mobile-menu{
         display: block;
+    }
+}
+@media (max-width:1317px){
+    .sobre h1{
+        font-size: 200%;
+        justify-self: center;
+        align-self: center;
+    }
+    
+}
+@media(max-width: 647px){
+    .inf{
+        font-size: 95%;
+
     }
 }
 
